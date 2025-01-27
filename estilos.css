@@ -41,3 +41,11 @@ input[type=checkbox]:checked, input[type="checkbox"]:focus {
   box-shadow: none;
   outline: none;
 }
+
+.boton-estandar{
+  background-color: var(--cafe-claro)
+}
+
+.boton-estandar:hover{
+  background-color: var(--cafe-oscuro)
+}

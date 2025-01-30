@@ -117,7 +117,7 @@
             <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1" style="width: 18rem;">
               <img src="./assets/productos-cafe-tradicional.png" class="card-img-top" alt="Taza de cafe tinto">
               <div class="card-body text-center">
-                <h3 class="card-text fw-bold">Cafes tradicionales</h3>
+                <h3 class="card-text fw-bold">Cafés Tradicionales</h3>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
             <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem;">
               <img src="./assets/productos-cafe-especial.png" class="card-img-top" alt="Taza de cafe especiales">
               <div class="card-body text-center">
-                <h3 class="card-text fw-bold">Cafes especiales</h3>
+                <h3 class="card-text fw-bold">Cafés Especiales</h3>
               </div>
             </div>
           </div>
@@ -174,6 +174,48 @@
         
         </div>
       </section>
+
+      <section class="py-4 container">
+        <div class="row">
+          <div class="col-10 col-xl-8 mx-auto">
+            <div class="border-2 rounded p-3">
+              <h3 class="fw-bold p-3">¡Contactanos!</h3>
+              <form id="Contacto">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingNombre" placeholder="Nombre">
+                  <label for="floatingNombre">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingCorreo" placeholder="name@example.com">
+                  <label for="floatingCorreo">Correo Electronico</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="number" class="form-control" id="floatingTelefono" placeholder="Telefono">
+                  <label for="floatingTelefono">Telefono</label>
+                </div>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option selected>Preferencia de contacto</option>
+                  <option value="1">WhatsApp</option>
+                  <option value="2">Correo Electronico</option>
+                  <option value="3">Llamada</option>
+                </select>
+
+                <label for="nivel-satisfaccion" class="form-label fw-bold">Nivel de satisfaccion</label>
+                <input type="range" class="form-range" id="nivel-satisfaccion">
+                 
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ¿Quiere recibir novedades y promociones por email?
+                  </label>
+                </div>
+                <button type="button" class="btn boton-estandar fw-bold mt-3 py-3 w-100">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- canvas-1 -->

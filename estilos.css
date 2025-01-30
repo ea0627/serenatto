@@ -28,7 +28,7 @@ body {
 }
 
 .banners-titulo{
-  --bs-bg-opacity:0.2
+  --bs-bg-opacity:0.2;
 }
 
 input[type=checkbox] {
@@ -51,6 +51,6 @@ input[type=checkbox]:checked, input[type="checkbox"]:focus {
   background-color: var(--cafe-oscuro)
 }
 
-.form-range::-webkit-slider-thumb {
+.form-range::-webkit-slider-thumb, footer {
   background-color: var(--cafe-claro);
 }

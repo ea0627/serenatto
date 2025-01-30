@@ -114,7 +114,7 @@
         <div class="row mx-0">
 
           <div class="col-12 col-md-6 col-xl-4">
-            <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1" style="width: 18rem;">
               <img src="./assets/productos-cafe-tradicional.png" class="card-img-top" alt="Taza de cafe tinto">
               <div class="card-body text-center">
                 <h3 class="card-text fw-bold">Cafes tradicionales</h3>
@@ -123,7 +123,7 @@
           </div>
 
           <div class="col-12 col-md-6 col-xl-4">
-            <div class="card border-0 mx-auto btn" style="width: 18rem;">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem;">
               <img src="./assets/productos-cafe-especial.png" class="card-img-top" alt="Taza de cafe especiales">
               <div class="card-body text-center">
                 <h3 class="card-text fw-bold">Cafes especiales</h3>
@@ -327,6 +327,54 @@
                 <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel fw-bold">Cafes tradicionales</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/productos-cafe-tradicional.png" class="w-100" alt="Taza de cafe tinto">
+            <p class="align-text-center">
+              El café Serenatto es conocido por sus mezclas tradicionales y sabrosas, que atraen a los amantes de las bebidas. Nuestros granos son cuidadosamente seleccionados y tostados para producir un rico aroma y un sabor equilibrado.</p>
+            
+            <p>
+              Entre los cafés más tradicionales de la casa destaca "Café Serenatto", una mezcla exclusiva de granos con notas de chocolate y caramelo. Otra opción popular es el "Café Italiano", un espresso intenso y con mucho cuerpo. "Café Cappuccino" es una opción clásica para quienes prefieren una bebida cremosa y suave.</p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary boton-estandar border-0" data-bs-dismiss="modal">Cerrar ventana</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel fw-bold">Cafes especiales</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/productos-cafe-especial.png" class="w-100" alt="Taza de cafe tinto">
+            <p class="align-text-center">
+              También somos conocidos por nuestros cafés especiales, que se preparan cuidadosamente con granos seleccionados de alta calidad y técnicas de preparación precisas.
+            </p>
+
+            <p>
+              Entre las opciones de cafés especiales de Café & Bistrô Serenatto destacamos el café aeropress, que se prepara mediante una técnica de inmersión y presión, dando como resultado una bebida de sabor intenso y aroma acentuado. Otra opción popular es el café Hario V60, que se prepara con un filtro de papel en forma de cono y da como resultado una bebida limpia y suave, resaltando las notas sensoriales de los granos. Además, ofrecemos una variedad de bebidas frías, como el café helado, que se prepara con granos tostados oscuros y se sirve con hielo y leche, resultando una bebida refrescante y sabrosa.
+            </p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary boton-estandar border-0" data-bs-dismiss="modal">Cerrar ventana</button>
           </div>
         </div>
       </div>

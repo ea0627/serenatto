@@ -61,7 +61,7 @@
 
     <main>
       <section class="banners banner-1 d-flex flex-column justify-content-center text-center">
-        <div class="banners-titulo bg-body-secondary py-5">
+        <div class="banners-titulo bg-body-secondary py-3">
           <h2 class="fw-bold">Una pausa para disfrutar la vida</h2>
           <p>¡Bienvenidos al Bistró Serenatto! Un ambiente acogedor para disfrutar de un buen café</p>
         </div>
@@ -76,7 +76,7 @@
             <div class="card-body">
               <h5 class="card-title py-2 fw-bold">Café & Bistró</h5>
               <p class="card-text">Nuestro bistró ofrece una amplia variedad de cafés, batidos, deliciosos snacks y postres. Una excelente opción para quienes buscan un lugar tranquilo y acogedor.</p>
-              <a href="#" class="btn boton-estandar w-100 fw-bold">Ver detalles</a>
+              <a href="#" class="btn boton-estandar w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Ver detalles</a>
             </div>
           </div>
 
@@ -85,7 +85,7 @@
             <div class="card-body">
               <h5 class="card-title py-2 fw-bold">Buffet</h5>
               <p class="card-text">Buffet y catering personalizado para eventos, producciones y celebraciones. Con una carta variada adaptable a las preferencias del cliente, servicio atento y profesional.</p>
-              <a href="#" class="btn boton-estandar w-100 fw-bold">Ver detalles</a>
+              <a href="#" class="btn boton-estandar w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-2" aria-controls="offcanvasRight">Ver detalles</a>
             </div>
           </div>
 
@@ -94,7 +94,7 @@
             <div class="card-body">
               <h5 class="card-title py-2 fw-bold">Delivery</h5>
               <p class="card-text">Para aquellos que quieran disfrutarlo en la comodidad de su hogar, ofrecemos entrega del producto. Con la misma carta variada de siempre, sin perder nuestro sabor y estándares de calidad.</p>
-              <a href="#" class="btn boton-estandar w-100 fw-bold">Ver detalles</a>
+              <a href="#" class="btn boton-estandar w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-3" aria-controls="offcanvasRight">Ver detalles</a>
             </div>
           </div>
         </div>
@@ -113,6 +113,164 @@
         </div>
       </section>
     </main>
+
+    <!-- canvas-1 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Caffe & Bistró</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Café
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Contamos con un excelente espacio para comer y descansar, con una vitrina repleta de dulces, snacks salados, cafés tradicionales y especiales para disfrutar de tus mejores momentos.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Bistró            
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Además de café durante todo el día, ofrecemos comidas a la hora del almuerzo (de 11 a 15 horas) con deliciosos platos de bistró.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Coworking
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Contamos con un espacio de trabajo adecuado, con conexión a Internet de alta velocidad y cómodas instalaciones para reuniones.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Pet friendly
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                ¡Tus mascotas también son bienvenidas! Las mascotas pueden entrar al establecimiento y disfrutarlo con sus dueños.
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
+
+    <!-- canvas-2 -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Eventos
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Organizamos buffets con menús variados y personalizados para bodas, fiestas de cumpleaños y otros eventos!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Catering
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Ofrecemos una variedad de servicios de alimentación para coffee breaks, producciones y backstage.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- canvas-3 -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Deleviry</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Pedidos para eventos
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Producimos y entregamos productos de café de nuestra carta en grandes cantidades para sus eventos! Sólo póngase en contacto y haga una reserva con 72 horas de antelación.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Entrega por App
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Entregamos a través de las aplicaciones de Pedidos Ya, Uber Eats y Rappi. ¡Consulta nuestro menú y realiza tu pedido!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button boton-estandar collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
